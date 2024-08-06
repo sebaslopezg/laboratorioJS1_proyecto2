@@ -56,6 +56,11 @@ let inventario = {
             nombre:'ejemplo',
             img:'url/ejemplo',
             precio:1234
+        },
+        5:{
+            nombre:'ejemplo',
+            img:'url/ejemplo',
+            precio:1234
         }
     },
     bebidas:{
@@ -85,4 +90,21 @@ let inventario = {
             precio:1234
         }
     }
+}
+
+let total = {
+    especialidades:{
+        cantidad:0,
+        tprecio:0
+    },
+    extra:{
+        cantidad:0,
+        tprecio:0
+    },
+    bebidas:{
+        cantidad:0,
+        tprecio:0
+    },
+
+    total:0
 }
