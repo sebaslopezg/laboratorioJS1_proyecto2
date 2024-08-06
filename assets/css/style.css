@@ -6,6 +6,10 @@ body{
     background-color: var(--primary-light);
 }
 
+header .navbar-brand{
+    color: var(--primary);
+}
+
 main{
     margin-top: 28px;
 }
@@ -13,4 +17,8 @@ main{
 .main-box{
     width: 90%;
     margin: 0 auto;
+}
+
+.accordion-body .card{
+    display: inline-block;
 }

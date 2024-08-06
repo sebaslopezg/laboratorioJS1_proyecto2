@@ -1,0 +1,88 @@
+let inventario = {
+    especialidades:{
+        0:{
+            nombre:'pizza sorpresa',
+            img:'pizza_especial.jpg',
+            precio:1234
+        },
+        1:{
+            nombre:'JA guayana',
+            img:'url/ejemplo',
+            precio:1234
+        },
+        2:{
+            nombre:'Champions ñones',
+            img:'url/ejemplo',
+            precio:1234
+        },
+        3:{
+            nombre:'Carne con Pasta',
+            img:'url/ejemplo',
+            precio:1234
+        },
+        4:{
+            nombre:'Pizza especial de sancocho de gallina',
+            img:'url/ejemplo',
+            precio:1234
+        },
+        5:{
+            nombre:'Pizza de arequipe',
+            img:'url/ejemplo',
+            precio:1234
+        }
+    },
+    extra:{
+        0:{
+            nombre:'ejemplo',
+            img:'url/ejemplo',
+            precio:1234
+        },
+        1:{
+            nombre:'ejemplo',
+            img:'url/ejemplo',
+            precio:1234
+        },
+        2:{
+            nombre:'ejemplo',
+            img:'url/ejemplo',
+            precio:1234
+        },
+        3:{
+            nombre:'ejemplo',
+            img:'url/ejemplo',
+            precio:1234
+        },
+        4:{
+            nombre:'ejemplo',
+            img:'url/ejemplo',
+            precio:1234
+        }
+    },
+    bebidas:{
+        0:{
+            nombre:'ejemplo',
+            img:'url/ejemplo',
+            precio:1234
+        },
+        1:{
+            nombre:'ejemplo',
+            img:'url/ejemplo',
+            precio:1234
+        },
+        2:{
+            nombre:'ejemplo',
+            img:'url/ejemplo',
+            precio:1234
+        },
+        3:{
+            nombre:'ejemplo',
+            img:'url/ejemplo',
+            precio:1234
+        },
+        4:{
+            nombre:'ejemplo',
+            img:'url/ejemplo',
+            precio:1234
+        }
+    }
+}
