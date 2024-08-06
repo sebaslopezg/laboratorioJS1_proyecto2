@@ -1,0 +1,16 @@
+:root{
+    --primary:#2d81ff;
+    --primary-light:#edf2fa;
+}
+body{
+    background-color: var(--primary-light);
+}
+
+main{
+    margin-top: 28px;
+}
+
+.main-box{
+    width: 90%;
+    margin: 0 auto;
+}
