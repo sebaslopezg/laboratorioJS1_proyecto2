@@ -25,3 +25,29 @@ main{
 .card img{
     height: 200px;
 }
+
+.navbar a{
+    color: #fff!important;
+}
+
+.bill-zone{
+    background-color: #fff;
+    margin-top: 16px;
+    border: solid 1px #dee2e6;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.bill-zone p{
+    padding-bottom: 8px;
+    border-bottom: dotted 2px #dee2e6;
+}
+
+.bill-zone p:last-child{
+    border-bottom: transparent;
+}
+
+footer{
+    padding: 8px;
+    bottom: 0;
+}
