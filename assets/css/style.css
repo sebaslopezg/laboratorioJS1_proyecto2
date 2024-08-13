@@ -22,3 +22,6 @@ main{
 .accordion-body .card{
     display: inline-block;
 }
+.card img{
+    height: 200px;
+}
