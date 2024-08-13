@@ -2,6 +2,7 @@ let contenidoEspecialidad = document.getElementById('contenidoEspecialidad')
 let contenidoAcompaniantes = document.getElementById('contenidoAcompaniantes')
 let contenidoBebidas = document.getElementById('contenidoBebidas')
 let showTotal = document.getElementById('showTotal')
+const granTotal = document.getElementById('granTotal')
 
 for(let element in inventario.especialidades){
     contenidoEspecialidad.innerHTML += card(inventario.especialidades[element].nombre, inventario.especialidades[element].img, element, 'especialidades', inventario.especialidades[element].precio)    
@@ -59,6 +60,7 @@ function almacenar(id, tipo){
     }
 
     console.log(total)
+    granTotal.innerHTML = `$${total.total}`
     showTotal.innerHTML = `
     <p>Cantidad de Especialidades: ${total.especialidades.cantidad}</p>
     <p>Total Especialidades: <b>$${total.especialidades.tprecio}</b></p>
